@@ -1,0 +1,201 @@
+.wrap{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    /*margin-top: 20px;*/
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+     
+}
+.logo{
+    display: inline-block;
+}
+.mogo{
+    font-weight: bold;
+    color: aqua;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+li:hover a{
+    color: crimson;
+    border-bottom: 2px solid red;
+}
+/*li:hover {
+    border-bottom: 2px solid red;
+}*/
+.black{
+    width: 100%;
+}
+.small{
+    margin-top: 40px;
+}
+.text{
+    /*margin-left: 47%;*/
+    text-align: center;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.smal{
+}
+.qwe{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 100%;
+}
+.ruska{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#ruska{
+    height: 2px;
+    width: 50px;
+    background: red;
+    margin-top: 50px;
+}
+.big{
+    width: 100%;
+}
+.orange{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.purple{
+    width: 400px;
+}
+.img{
+    float: left;
+    width: 50px;
+    height: 100%;
+    padding-right: 10px;
+}
+.img img{
+    width: 100%;
+}
+.texts{
+    float: left;
+    width: 340px;
+}
+.mini{
+    margin-top: 0px;
+}
+.qew{
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+.qwerty{
+    font-family: sans-serif;
+}
+.red{
+    width: 100%;
+}
+.qazw{
+    width: 70%;
+    margin: auto;
+}
+.qaz{
+    text-align: center;
+    font-family: sans-serif;
+}
+.kartunku{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.kartunka{
+    background-image: url(img/2021-02-24%2020.10.49.jpg);
+    width: 376px;
+    height: 465px;
+        
+}
+.kartuna{
+    background-image: url(img/2021-02-24%2020.11.03.jpg);
+    width: 376px;
+    height: 465px;
+}
+.kartu{
+    background-image: url(img/2021-02-24%2020.11.09.jpg);
+    width: 376px;
+    height: 465px;
+}
+.orang{
+    position: relative;
+}
+.p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.ppp{
+    color: gray;
+}
+.kartunka:hover{
+    background-image: linear-gradient(#ff00007d, #ffff008c), url(img/2021-02-24%2020.10.49.jpg);
+    box-shadow: 5px 5px 5px 5px aqua;
+    
+}
+.kartuna:hover{
+    background-image: linear-gradient(#ff00007d, #ffff008c), url(img/2021-02-24%2020.11.03.jpg);
+    box-shadow: 5px 5px 5px 5px aqua;
+}
+.kartu:hover{
+    background-image: linear-gradient(#ff00007d, #ffff008c), url(img/2021-02-24%2020.11.09.jpg);
+    box-shadow: 5px 5px 5px 5px aqua;
+}
+.inst{
+    width: 200px;
+    position: absolute;
+    top: 225px;
+    background: yellow;
+    left: 50%;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+.poi{
+    border-right: 2px solid red;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+.q{
+    border-right: none;
+}
+.poi:hover{
+    background: aqua;
+}
+.orang:hover .inst{
+    display: flex;
+}
